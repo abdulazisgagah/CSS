@@ -1,0 +1,73 @@
+part 1
+CSS (cascading style sheet) berfungsi mendesain web
+
+part 2
+CSS anatomi selector { property: value;} contoh h1 { color: blue;}
+contoh nyambung h1 { 
+			font-family: "courier New";
+			text-align: center;
+			font-size: 30px;
+			color : blue;
+		    }
+part 3
+menempatkan css : 1. dengan cara embed (biasa digunakan sebelum atau sesudah tittle) <style></style> 
+		  2. inline (tidak disarankan) <p style="color: lightblue;">...</p>;
+		  3. external <link rel="stylesheet" href="style.css">
+		  4. <link rel="stylesheet" href="nama file)">
+part 4
+font styling : 1. font-family(mengatur jenis font yang akan digunakan)
+	       2. font-size (mengatur ukuran font)
+	       3. font-weight (mengatur ketebalan font)
+	       4. font-variant (mengubah font menjadi small caps)
+	       5. font-style (mengubah style font)
+	       6. line-height (jarak antar spasi bertambah)
+css shorthand caranya harus terurut dari satu sampai enam .
+
+part 5
+link :codepan.io
+text styling :	1.color(memberi warna pada tulisan)
+		2.text-align(mengatur format paragraf/teks)
+		3.text-indent(memberi indentasi pada paragraf/teks)
+		4.text-decoration (mengatur dekorasi pada teks)
+		5.text-transformmengubah jenis huruf menjadi huruf besar,kecil/kapital)
+		6.letter-spacing(mengatur spasis antaar huruf)
+		7. word-spacing(mengatur spasi antar kata)
+part 6
+Background : 1.background-color (mengatur warna pada background)
+	     2.background-image (mengatur gambar yang akan digunakan pada background)
+	     3.background-position (mengatur posisi gambar pada background)
+	     4.backround-repeat (mengatur Jenis pengulangan gambar pada background)
+website cari background: subtlepatterns.com
+shorthand : background: color url() position repeeat;
+
+part 7 
+selector : 	1.elemen HTML contoh= h1,h2 {color= lightblue}
+		2. id contoh <p id="p1">
+		3.class contoh= <p class="p2>
+		4.complex selector
+part 8
+pseudo class kelas yang aktif dikeadaan terntetu
+1.link = style dafult pada sebuah link( a yang memiliki href)
+2.hover = style ketika kursor mous berada diatas sebuah link/elemen
+3.active = style ketika sebuah link di klik (keadaan aktif)
+4.visited style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama)
+
+pseudo class 2
+first-child diarahkan urutan awal
+last-child diarahkan urutan terakhir
+nth-child arah manual
+first-of-type
+last-of-type
+
+contoh= namaclass:pseudoclass{
+		color=red;
+part 9
+inheritance(pewarisan)
+a{ color: inherit; }
+
+part 10
+specifity 
+cara menghitung : inline,id,class,elemen
+
+
+		
